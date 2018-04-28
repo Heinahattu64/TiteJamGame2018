@@ -2,40 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour {
-
-    public float rotaterate;
-    private Rigidbody rb;
-
-    public float jumpPower;
-
-    // Use this for initialization
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    // Update is called once per frame
+public class ExampleClass : MonoBehaviour
+{
+    public float speed = 6.0F;
+    public float jumpSpeed = 8.0F;
+    public float gravity = 20.0F;
+    private Vector3 moveDirection = Vector3.zero;
     void Update()
     {
-
-        MoveBlobby();
-    }
-
-    void MoveBlobby()
-    {
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * rotaterate;
-        var z = Input.GetAxis("Vertical") * Time.deltaTime * rotaterate;
-
-        Vector3 movement = new Vector3(x, 0.0f, z);
-
-        rb.AddForce(movement);
-
-        if (Input.GetButtonDown("Jump"))
+        CharacterController controller = GetComponent<CharacterController>();
+        if (controller.isGrounded)
         {
-            Vector3 jump = new Vector3(0.0f, jumpPower, 0f);
+            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            moveDirection = transform.TransformDirection(moveDirection);
+            moveDirection *= speed;
+            if (Input.GetButton("Jump"))
+                moveDirection.y = jumpSpeed;
 
-            rb.AddForce(jump);
         }
+        moveDirection.y -= gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
     }
 }

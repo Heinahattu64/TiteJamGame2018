@@ -2,28 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class blobbycontrol : MonoBehaviour {
+public class Movement : MonoBehaviour
+{
 
     public float rotaterate;
     private Rigidbody rb;
+    public Transform mainCam;
 
     public GameObject windyzone;
-    public Transform camMain;
-    public Transform anchor;
     public bool inWindZone;
 
-    public float jumpTimer;
     public float jumpPower;
+    public float hopPower;
+    public float hopTimer;
+    public float hopTimerReset;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         rb = GetComponent<Rigidbody>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
 
+    // Update is called once per frame
+    void Update()
+    {
         MoveBlobby();
+        HopBlobby();
+
 
     }
 
@@ -31,28 +36,35 @@ public class blobbycontrol : MonoBehaviour {
     {
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * rotaterate;
         var z = Input.GetAxis("Vertical") * Time.deltaTime * rotaterate;
-        
-        Vector3 movement = new Vector3(x, 0f, z);
-        rb.AddForce(movement);
 
-        jumpTimer -= Time.deltaTime;
+        transform.LookAt(mainCam);
 
-        if (jumpTimer <= 0.0f && Input.GetButtonDown("Jump"))
+        rb.AddForce(transform.forward * 5);
+
+        if (Input.GetButtonDown("Jump"))
         {
             Vector3 jump = new Vector3(0.0f, jumpPower, 0f);
+
             rb.AddForce(jump);
-            jumpTimer = 1.5f;
         }
     }
 
-    private void FixedUpdate()
+    void HopBlobby()
     {
+
+        hopTimer -= Time.deltaTime;
         
+        if (hopTimer <= 0f)
+        {
+            Vector3 hop = new Vector3(0.0f, hopPower, 0f);
+            rb.AddForce(hop);
+            hopTimer = hopTimerReset;
+        }
     }
 
     void OnTriggerEnter(Collider coll)
     {
-        if(coll.gameObject.tag == "windArea")
+        if (coll.gameObject.tag == "windArea")
         {
             windyzone = coll.gameObject;
             inWindZone = true;
@@ -61,7 +73,7 @@ public class blobbycontrol : MonoBehaviour {
 
     void OnTriggerExit(Collider coll)
     {
-        if(coll.gameObject.tag == "windArea")
+        if (coll.gameObject.tag == "windArea")
         {
             inWindZone = false;
         }
