@@ -11048,7 +11048,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 5, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &536213607
 MeshFilter:
@@ -14203,7 +14203,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 5, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &789864368
 MeshFilter:
@@ -15913,7 +15913,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 5, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &920596428
 MeshFilter:
@@ -29352,6 +29352,7 @@ GameObject:
   - component: {fileID: 1640710813}
   - component: {fileID: 1640710817}
   - component: {fileID: 1640710811}
+  - component: {fileID: 1640710812}
   m_Layer: 0
   m_Name: Blobby
   m_TagString: Player
@@ -29375,6 +29376,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &1640710812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1640710810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac726ef5b1f0104084c8da36325daef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &1640710813
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29473,7 +29485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotaterate: 500
   windyzone: {fileID: 977960209}
-  inWindZone: 0
+  inWindZone: 1
   jumpPower: 400
   hopPower: 400
   hopTimer: 1
@@ -31392,7 +31404,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 5, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1750530462
 MeshFilter:

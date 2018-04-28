@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Sewer.unity
+    guid: 84d01735aeda0eb42b3a43fdbaf08a08
+  - enabled: 1
+    path: Assets/EndScreen.unity
+    guid: b9917628472491b449ac3d59244c2ce8
