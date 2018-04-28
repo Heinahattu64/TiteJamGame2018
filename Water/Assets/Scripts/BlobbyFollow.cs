@@ -34,7 +34,7 @@ public class BlobbyFollow : MonoBehaviour {
     void tpToPlayer()
     {
         Vector3 centerPos = player.transform.position;
-        Vector3 temp = new Vector3(0f, 0.5f, 0f);
+        Vector3 temp = new Vector3(0f, 0.2f, 0f);
         centerPos += temp;
 
         gameObject.transform.position = centerPos;
