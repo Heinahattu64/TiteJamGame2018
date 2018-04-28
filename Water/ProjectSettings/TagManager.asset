@@ -6,6 +6,7 @@ TagManager:
   tags:
   - New Area
   - windArea
+  - Bars
   layers:
   - Default
   - TransparentFX
