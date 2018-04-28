@@ -8,6 +8,8 @@ public class blobbycontrol : MonoBehaviour {
     private Rigidbody rb;
 
     public GameObject windyzone;
+    public Transform camMain;
+    public Transform anchor;
     public bool inWindZone;
 
     public float jumpTimer;
@@ -22,14 +24,15 @@ public class blobbycontrol : MonoBehaviour {
 	void Update () {
 
         MoveBlobby();
-	}
+
+    }
 
     void MoveBlobby()
     {
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * rotaterate;
         var z = Input.GetAxis("Vertical") * Time.deltaTime * rotaterate;
-
-        Vector3 movement = new Vector3(x, 0.0f, z);
+        
+        Vector3 movement = new Vector3(x, 0f, z);
         rb.AddForce(movement);
 
         jumpTimer -= Time.deltaTime;
@@ -44,10 +47,7 @@ public class blobbycontrol : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        if (inWindZone)
-        {
-            rb.AddForce(windyzone.GetComponent<windArea>().windDirection * windyzone.GetComponent<windArea>().windStrength);
-        }
+        
     }
 
     void OnTriggerEnter(Collider coll)

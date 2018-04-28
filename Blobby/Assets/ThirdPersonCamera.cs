@@ -1,42 +1,35 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
 public class ThirdPersonCamera : MonoBehaviour
 {
-    private const float Y_ANGLE_MIN = -50.0f;
-    private const float Y_ANGLE_MAX = 50.0f;
 
-    public Transform lookAt;
-    public Transform camTransform;
+    public float turnSpeed = 4.0f;
+    public Transform player;
+    public GameObject anchor;
+    private Vector3 vekkis;
 
-    private Camera cam;
+    public float height = 1f;
+    public float distance = 2f;
 
-    private float distance = 7.0f;
-    private float currentX = 0.0f;
-    private float currentY = 0.0f;
-    private float sensitivityX = 3.0f;
-    private float sensitivityY = 1.0f;
+    private Vector3 offsetX;
 
-    private void Start()
+    void Start()
     {
-        camTransform = transform;
-        cam = Camera.main;
+
+        offsetX = new Vector3(0, height, distance);
+        
     }
 
-    private void Update()
+    void LateUpdate()
     {
-        currentX += Input.GetAxis("Mouse X");
-        currentY += Input.GetAxis("Mouse Y");
 
-        currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX);
-    }
-
-    private void LateUpdate()
-    {
-        Vector3 dir = new Vector3(0, 0, -distance);
-        Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
-        camTransform.position = lookAt.position + rotation * dir;
-        camTransform.LookAt(lookAt.position);
+        transform.position = player.position + offsetX;
+        transform.LookAt(player.position);
+        
+        if (Input.GetMouseButton(0))
+        {
+            offsetX = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * turnSpeed, Vector3.up) * offsetX;
+        }
     }
 }
