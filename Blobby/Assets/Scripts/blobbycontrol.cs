@@ -31,9 +31,16 @@ public class blobbycontrol : MonoBehaviour {
     {
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * rotaterate;
         var z = Input.GetAxis("Vertical") * Time.deltaTime * rotaterate;
+
+        Vector3 dir = new Vector3(x, 0, z);
+        Quaternion rotation = Quaternion.Euler(x, 0, z);
+        camMain.position = anchor.position + rotation * dir;
+        camMain.LookAt(anchor.position);
+
+        //Vector3 movement = new Vector3(x, 0, z);
+        rb.AddForce(dir);
         
-        Vector3 movement = new Vector3(x, 0f, z);
-        rb.AddForce(movement);
+        //rb.AddForce(dir);
 
         jumpTimer -= Time.deltaTime;
 
