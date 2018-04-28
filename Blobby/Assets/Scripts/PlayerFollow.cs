@@ -7,7 +7,7 @@ public class PlayerFollow : MonoBehaviour {
     public GameObject player;
     public GameObject camFind;
     private Vector3 offset;
-    public ThirdPersonCamera called;
+
 
 	// Use this for initialization
 	void Start () {
@@ -28,7 +28,7 @@ public class PlayerFollow : MonoBehaviour {
     {
         if (Input.GetMouseButton(0))
         {
-            camFind.gameObject.GetComponent(ThirdPersonCamera);
+
         }
     }
 }
