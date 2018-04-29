@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class blobbycontrol : MonoBehaviour {
 
-    public float rotaterate;
+    public float moveSpeed;
+    public float turnSpeed;
     private Rigidbody rb;
 
     public GameObject windyzone;
@@ -14,6 +15,8 @@ public class blobbycontrol : MonoBehaviour {
 
     public float jumpTimer;
     public float jumpPower;
+
+    //public CamAnchor anchorScript;
 
     // Use this for initialization
     void Start () {
@@ -29,21 +32,44 @@ public class blobbycontrol : MonoBehaviour {
 
     void MoveBlobby()
     {
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * rotaterate;
-        var z = Input.GetAxis("Vertical") * Time.deltaTime * rotaterate;
+        var x = Input.GetAxis("Horizontal") * Time.deltaTime * turnSpeed;
+        var z = Input.GetAxis("Vertical") * Time.deltaTime;
+        /*
+        //anchorScript.MovementTry();
+
+        //CamAnchor gimmescript = anchor.GetComponent<CamAnchor>();
 
         Vector3 dir = new Vector3(x, 0, z);
         Quaternion rotation = Quaternion.Euler(x, 0, z);
         camMain.position = anchor.position + rotation * dir;
         camMain.LookAt(anchor.position);
+        camMain.LookAt(anchor.position);
 
-        //Vector3 movement = new Vector3(x, 0, z);
-        rb.AddForce(dir);
         
-        //rb.AddForce(dir);
+        Vector3 test = camMain.position;
+        Quaternion trying = camMain.localRotation;
+        //anchor.rotation = Quaternion.LookRotation(test);
+
+        anchor.transform.localRotation = Quaternion.Slerp(trying, anchor.rotation, Time.deltaTime);
+        
+
+        rb.AddForce(dir);
+        */
+
+        //Vector3 movement = new Vector3(z, 0, 0);
+        transform.Rotate(0, x, 0);
+
+        if (z > 0)
+        {
+            rb.AddForce(transform.forward * moveSpeed);
+        }
+        else if (z < 0)
+        {
+            rb.AddForce(transform.forward * -moveSpeed);
+        }
+        //rb.AddForce(transform.forward);
 
         jumpTimer -= Time.deltaTime;
-
         if (jumpTimer <= 0.0f && Input.GetButtonDown("Jump"))
         {
             Vector3 jump = new Vector3(0.0f, jumpPower, 0f);
