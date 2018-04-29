@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: e63dca081a0c845489a7e6f05c014ffa
+  - enabled: 1
     path: Assets/Labra.unity
     guid: 08418f2af87a7a849904fadc56adf25b
   - enabled: 1
@@ -14,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sewer.unity
     guid: 84d01735aeda0eb42b3a43fdbaf08a08
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 2be31cfb5a3eaab4f99d1f3d2885b79f

@@ -7,9 +7,9 @@ public class NewScene : MonoBehaviour {
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Bars")
+        if (collision.gameObject.tag == "NewScene")
         {
-            SceneManager.LoadScene("EndScreen");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
