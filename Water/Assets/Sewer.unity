@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2876293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,9 +238,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2876291}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -279,7 +279,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 240
+  m_RootOrder: 239
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &39451529
 GameObject:
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &39451531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,9 +406,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 39451529}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -447,7 +447,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 84
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &41893570
 GameObject:
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &41893572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,9 +574,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 41893570}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -615,7 +615,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &49264614
 GameObject:
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &49264616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -742,9 +742,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 49264614}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -783,7 +783,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &61043914
 GameObject:
@@ -821,7 +821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &61043916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,9 +910,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 61043914}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -951,7 +951,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 189
+  m_RootOrder: 188
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &64704473
 GameObject:
@@ -1035,7 +1035,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 259
+  m_RootOrder: 258
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &68113630
 GameObject:
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &68113632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1162,9 +1162,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 68113630}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1203,7 +1203,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 150
+  m_RootOrder: 149
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &89797131
 Prefab:
@@ -1242,7 +1242,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &100523597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1372,9 +1372,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 100523595}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1413,7 +1413,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &104376020
 GameObject:
@@ -1451,7 +1451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &104376022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,9 +1540,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 104376020}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1581,7 +1581,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 254
+  m_RootOrder: 253
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &107988184
 GameObject:
@@ -1619,7 +1619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &107988186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,9 +1708,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 107988184}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1749,7 +1749,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &117685288
 Prefab:
@@ -1788,7 +1788,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0249d07ad21ea974ea99cf6a1dd0792a, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0249d07ad21ea974ea99cf6a1dd0792a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1857,7 +1857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &119051308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1946,9 +1946,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 119051306}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1987,7 +1987,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &132345213
 GameObject:
@@ -2025,7 +2025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &132345215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2114,9 +2114,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 132345213}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2155,7 +2155,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 229
+  m_RootOrder: 228
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &144811577
 GameObject:
@@ -2193,7 +2193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &144811579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2282,9 +2282,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 144811577}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2323,7 +2323,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 226
+  m_RootOrder: 225
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &145467267
 GameObject:
@@ -2361,7 +2361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &145467269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2450,9 +2450,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 145467267}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2491,7 +2491,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 186
+  m_RootOrder: 185
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &153418184
 GameObject:
@@ -2529,7 +2529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &153418186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2618,9 +2618,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 153418184}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2659,7 +2659,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 195
+  m_RootOrder: 194
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &154128750
 GameObject:
@@ -2697,7 +2697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &154128752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2786,9 +2786,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 154128750}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2827,7 +2827,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &157479693
 GameObject:
@@ -2865,7 +2865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &157479695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2954,9 +2954,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 157479693}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2995,7 +2995,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &163202578
 GameObject:
@@ -3033,7 +3033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &163202580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3122,9 +3122,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 163202578}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3163,7 +3163,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 233
+  m_RootOrder: 232
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &166755873
 GameObject:
@@ -3249,7 +3249,7 @@ Transform:
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &166755878
 Animator:
@@ -3304,7 +3304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &174950221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3393,9 +3393,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 174950219}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3434,7 +3434,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 106
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &178458403
 GameObject:
@@ -3472,7 +3472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &178458405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3561,9 +3561,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 178458403}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3602,7 +3602,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 207
+  m_RootOrder: 206
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &179496277
 GameObject:
@@ -3640,7 +3640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &179496279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3729,9 +3729,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 179496277}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3770,7 +3770,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 194
+  m_RootOrder: 193
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &186010817
 GameObject:
@@ -3808,7 +3808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &186010819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3897,9 +3897,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 186010817}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3938,7 +3938,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 231
+  m_RootOrder: 230
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &186914092
 GameObject:
@@ -4022,7 +4022,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 6, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 258
+  m_RootOrder: 257
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &188488719
 GameObject:
@@ -4106,7 +4106,7 @@ Transform:
   m_LocalScale: {x: 6.8, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &197305893
 GameObject:
@@ -4144,7 +4144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &197305895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4233,9 +4233,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 197305893}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4274,7 +4274,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 219
+  m_RootOrder: 218
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201203417
 GameObject:
@@ -4331,7 +4331,7 @@ Transform:
   m_LocalScale: {x: 86.87438, y: 4.5, z: 8.71}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &216829782
 GameObject:
@@ -4369,7 +4369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &216829784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4458,9 +4458,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 216829782}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4499,7 +4499,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &221913212
 GameObject:
@@ -4537,7 +4537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &221913214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4626,9 +4626,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 221913212}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4667,7 +4667,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 115
+  m_RootOrder: 114
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &225835976
 GameObject:
@@ -4705,7 +4705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &225835978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4794,9 +4794,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 225835976}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4835,7 +4835,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 181
+  m_RootOrder: 180
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &232575845
 GameObject:
@@ -4873,7 +4873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &232575847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4962,9 +4962,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 232575845}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5003,7 +5003,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 98
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &242836764
 GameObject:
@@ -5088,7 +5088,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &258065505
 GameObject:
@@ -5126,7 +5126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &258065507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5215,9 +5215,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 258065505}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5256,7 +5256,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 187
+  m_RootOrder: 186
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &263548174
 GameObject:
@@ -5294,7 +5294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &263548176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5383,9 +5383,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 263548174}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5424,7 +5424,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 251
+  m_RootOrder: 250
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &270766932
 GameObject:
@@ -5462,7 +5462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &270766934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5551,9 +5551,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 270766932}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5592,7 +5592,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 179
+  m_RootOrder: 178
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &277824043
 GameObject:
@@ -5630,7 +5630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &277824045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5719,9 +5719,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 277824043}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5760,7 +5760,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 154
+  m_RootOrder: 153
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &280397688
 GameObject:
@@ -5798,7 +5798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &280397690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5887,9 +5887,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 280397688}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5928,7 +5928,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 185
+  m_RootOrder: 184
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &287954863
 GameObject:
@@ -5966,7 +5966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &287954865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6055,9 +6055,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 287954863}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -6096,7 +6096,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 86
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &288695440
 GameObject:
@@ -6134,7 +6134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &288695442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6223,9 +6223,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 288695440}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -6264,7 +6264,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 192
+  m_RootOrder: 191
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &307074694
 GameObject:
@@ -6348,7 +6348,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 260
+  m_RootOrder: 259
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &324741457
 GameObject:
@@ -6386,7 +6386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &324741459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6475,9 +6475,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 324741457}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -6516,7 +6516,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 124
+  m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &325468081
 GameObject:
@@ -6554,7 +6554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &325468083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6643,9 +6643,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 325468081}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -6684,7 +6684,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 148
+  m_RootOrder: 147
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &327963995
 GameObject:
@@ -6722,7 +6722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &327963997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6811,9 +6811,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 327963995}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -6852,7 +6852,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 82
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &331729821
 GameObject:
@@ -6890,7 +6890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &331729823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6979,9 +6979,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 331729821}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -7020,7 +7020,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 247
+  m_RootOrder: 246
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &333286368
 GameObject:
@@ -7058,7 +7058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &333286370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7147,9 +7147,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 333286368}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -7188,7 +7188,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 156
+  m_RootOrder: 155
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &339061461
 GameObject:
@@ -7226,7 +7226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &339061463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7315,9 +7315,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 339061461}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -7356,7 +7356,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 225
+  m_RootOrder: 224
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &342412132
 GameObject:
@@ -7394,7 +7394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &342412134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7483,9 +7483,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 342412132}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -7524,7 +7524,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 209
+  m_RootOrder: 208
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &351508694
 GameObject:
@@ -7562,7 +7562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &351508696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7651,9 +7651,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 351508694}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -7692,7 +7692,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 72
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &352153125
 GameObject:
@@ -7730,7 +7730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &352153127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7819,9 +7819,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 352153125}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -7860,7 +7860,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 213
+  m_RootOrder: 212
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &358425492
 GameObject:
@@ -7898,7 +7898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &358425494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7987,9 +7987,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 358425492}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -8028,7 +8028,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &368587947
 GameObject:
@@ -8066,7 +8066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &368587949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8155,9 +8155,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 368587947}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -8196,7 +8196,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 111
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &392872249
 GameObject:
@@ -8234,7 +8234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &392872251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8323,9 +8323,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 392872249}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -8364,7 +8364,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 142
+  m_RootOrder: 141
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &399815172
 GameObject:
@@ -8485,7 +8485,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &431696239
 Prefab:
@@ -8524,7 +8524,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc024d1aa5e5b8249b9b313bad3aaa3e, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc024d1aa5e5b8249b9b313bad3aaa3e, type: 2}
       propertyPath: m_LocalScale.x
@@ -8577,7 +8577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &443243553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8666,9 +8666,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443243551}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -8707,7 +8707,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 196
+  m_RootOrder: 195
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &450291198
 GameObject:
@@ -8745,7 +8745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &450291200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8834,9 +8834,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 450291198}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -8875,7 +8875,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 170
+  m_RootOrder: 169
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &453371595
 GameObject:
@@ -8913,7 +8913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &453371597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9002,9 +9002,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 453371595}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -9043,7 +9043,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 137
+  m_RootOrder: 136
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &453391749
 GameObject:
@@ -9081,7 +9081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &453391751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9170,9 +9170,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 453391749}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -9211,7 +9211,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 255
+  m_RootOrder: 254
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &459947736
 GameObject:
@@ -9249,7 +9249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &459947738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9338,9 +9338,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 459947736}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -9379,7 +9379,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &466439498
 GameObject:
@@ -9417,7 +9417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &466439500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9506,9 +9506,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 466439498}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -9547,7 +9547,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 113
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &472518185
 GameObject:
@@ -9585,7 +9585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &472518187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9674,9 +9674,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 472518185}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -9715,7 +9715,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 180
+  m_RootOrder: 179
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &472694870
 GameObject:
@@ -9753,7 +9753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &472694872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9842,9 +9842,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 472694870}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -9883,7 +9883,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 201
+  m_RootOrder: 200
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &473250786
 GameObject:
@@ -9921,7 +9921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &473250788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10010,9 +10010,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 473250786}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -10051,7 +10051,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &479442155
 GameObject:
@@ -10089,7 +10089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &479442157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10178,9 +10178,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 479442155}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -10219,7 +10219,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 246
+  m_RootOrder: 245
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &480602130
 GameObject:
@@ -10257,7 +10257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &480602132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10346,9 +10346,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 480602130}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -10387,7 +10387,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 160
+  m_RootOrder: 159
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &489879721
 GameObject:
@@ -10425,7 +10425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &489879723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10514,9 +10514,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 489879721}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -10555,7 +10555,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 214
+  m_RootOrder: 213
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495472584
 GameObject:
@@ -10593,7 +10593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &495472586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10682,9 +10682,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 495472584}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -10723,7 +10723,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 102
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &500565140
 GameObject:
@@ -10761,7 +10761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &500565142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10850,9 +10850,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 500565140}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -10891,7 +10891,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 166
+  m_RootOrder: 165
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &509174787
 GameObject:
@@ -10929,7 +10929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &509174789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11018,9 +11018,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 509174787}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -11059,7 +11059,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 139
+  m_RootOrder: 138
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &527583997
 GameObject:
@@ -11097,7 +11097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &527583999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11186,9 +11186,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 527583997}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -11227,7 +11227,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 172
+  m_RootOrder: 171
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &539018924
 Prefab:
@@ -11266,7 +11266,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2d1d8aa2896fe9741a652335ecf4e6ef, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2d1d8aa2896fe9741a652335ecf4e6ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11343,7 +11343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &544276534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11432,9 +11432,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 544276532}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -11473,7 +11473,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 110
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &553798027
 GameObject:
@@ -11511,7 +11511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &553798029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11600,9 +11600,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 553798027}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -11641,7 +11641,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 165
+  m_RootOrder: 164
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &573920153
 GameObject:
@@ -11679,7 +11679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &573920155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11768,9 +11768,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 573920153}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -11809,7 +11809,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 107
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &586463025
 GameObject:
@@ -11847,7 +11847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &586463027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11936,9 +11936,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 586463025}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -11977,7 +11977,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 190
+  m_RootOrder: 189
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593526029
 GameObject:
@@ -12015,7 +12015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &593526031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12104,9 +12104,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 593526029}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -12145,7 +12145,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 85
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &600109728
 GameObject:
@@ -12183,7 +12183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &600109730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12272,9 +12272,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 600109728}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -12313,7 +12313,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 147
+  m_RootOrder: 146
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &605000331
 GameObject:
@@ -12351,7 +12351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &605000333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12440,9 +12440,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 605000331}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -12481,7 +12481,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 157
+  m_RootOrder: 156
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &613974706
 GameObject:
@@ -12519,7 +12519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &613974708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12608,9 +12608,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 613974706}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -12649,7 +12649,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 237
+  m_RootOrder: 236
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &624443784
 GameObject:
@@ -12687,7 +12687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &624443786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12776,9 +12776,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 624443784}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -12817,7 +12817,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &632675872
 GameObject:
@@ -12855,7 +12855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &632675874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12944,9 +12944,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 632675872}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -12985,7 +12985,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 252
+  m_RootOrder: 251
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &634977528
 GameObject:
@@ -13023,7 +13023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &634977530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13112,9 +13112,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 634977528}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -13153,7 +13153,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &642434602
 GameObject:
@@ -13191,7 +13191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &642434604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13280,9 +13280,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 642434602}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -13321,7 +13321,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 253
+  m_RootOrder: 252
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &652208534
 GameObject:
@@ -13359,7 +13359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &652208536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13448,9 +13448,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 652208534}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -13489,7 +13489,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 155
+  m_RootOrder: 154
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &655659041
 GameObject:
@@ -13527,7 +13527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &655659043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13616,9 +13616,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655659041}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -13657,7 +13657,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 198
+  m_RootOrder: 197
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &674459534
 Prefab:
@@ -13668,7 +13668,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 06849cd3ddc13cf4ba8d2f8ef24f409e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 106.33
+      value: 106.21
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06849cd3ddc13cf4ba8d2f8ef24f409e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13696,7 +13696,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06849cd3ddc13cf4ba8d2f8ef24f409e, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06849cd3ddc13cf4ba8d2f8ef24f409e, type: 3}
       propertyPath: m_LocalScale.x
@@ -13769,7 +13769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &693904606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13858,9 +13858,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 693904604}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -13899,7 +13899,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 182
+  m_RootOrder: 181
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &713817689
 Prefab:
@@ -13938,7 +13938,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -14030,7 +14030,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &752423234 stripped
 GameObject:
@@ -14086,7 +14086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &752896751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14175,9 +14175,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 752896749}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -14216,7 +14216,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 149
+  m_RootOrder: 148
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &762449444
 Prefab:
@@ -14255,7 +14255,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -14300,7 +14300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &799523904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14389,9 +14389,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 799523902}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -14430,7 +14430,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 238
+  m_RootOrder: 237
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &799639337
 Prefab:
@@ -14469,7 +14469,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -14514,7 +14514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &805502593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14603,9 +14603,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 805502591}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -14644,7 +14644,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 167
+  m_RootOrder: 166
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &807141675
 Prefab:
@@ -14683,7 +14683,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2d1d8aa2896fe9741a652335ecf4e6ef, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2d1d8aa2896fe9741a652335ecf4e6ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14779,7 +14779,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 22f0420efb2c57043b3adb4672a6b2a3, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 22f0420efb2c57043b3adb4672a6b2a3, type: 2}
       propertyPath: m_LocalScale.x
@@ -14848,7 +14848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &866437684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14937,9 +14937,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 866437682}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -14978,7 +14978,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 81
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880517986
 GameObject:
@@ -15016,7 +15016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &880517988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15105,9 +15105,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 880517986}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -15146,7 +15146,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &882595153
 GameObject:
@@ -15184,7 +15184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &882595155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15273,9 +15273,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 882595153}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -15314,7 +15314,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 90
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &909876873
 GameObject:
@@ -15352,7 +15352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &909876875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15441,9 +15441,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 909876873}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -15482,7 +15482,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 95
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &915222805
 Prefab:
@@ -15521,7 +15521,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -15566,7 +15566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &915351063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15655,9 +15655,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 915351061}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -15696,7 +15696,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 176
+  m_RootOrder: 175
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925962521
 GameObject:
@@ -15734,7 +15734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &925962523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15823,9 +15823,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 925962521}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -15864,7 +15864,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 152
+  m_RootOrder: 151
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &926682473
 GameObject:
@@ -15902,7 +15902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &926682475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15991,9 +15991,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 926682473}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -16032,7 +16032,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 248
+  m_RootOrder: 247
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &934324314
 GameObject:
@@ -16070,7 +16070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &934324316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16159,9 +16159,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 934324314}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -16200,7 +16200,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 120
+  m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &938371718
 GameObject:
@@ -16238,7 +16238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &938371720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16327,9 +16327,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 938371718}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -16368,7 +16368,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 141
+  m_RootOrder: 140
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &941864234
 GameObject:
@@ -16406,7 +16406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &941864236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16495,9 +16495,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 941864234}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -16536,7 +16536,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 136
+  m_RootOrder: 135
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &952088601
 GameObject:
@@ -16574,7 +16574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &952088603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16663,9 +16663,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 952088601}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -16704,7 +16704,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 74
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &953146675
 GameObject:
@@ -16742,7 +16742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &953146677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16831,9 +16831,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 953146675}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -16872,7 +16872,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 128
+  m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &954468381
 Prefab:
@@ -16911,7 +16911,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -16956,7 +16956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &971528881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17045,9 +17045,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 971528879}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -17086,7 +17086,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 206
+  m_RootOrder: 205
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &977960209
 GameObject:
@@ -17145,7 +17145,7 @@ Transform:
   m_LocalScale: {x: 4.85, y: 3.74, z: 340.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &985316003
 GameObject:
@@ -17183,7 +17183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &985316005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17272,9 +17272,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 985316003}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -17313,7 +17313,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 175
+  m_RootOrder: 174
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &988529726
 GameObject:
@@ -17351,7 +17351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &988529728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17440,9 +17440,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 988529726}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -17481,7 +17481,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 92
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &998949258
 GameObject:
@@ -17519,7 +17519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &998949260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17608,9 +17608,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 998949258}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -17649,7 +17649,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 188
+  m_RootOrder: 187
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1001036611
 GameObject:
@@ -17687,7 +17687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1001036613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17776,9 +17776,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001036611}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -17817,7 +17817,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 202
+  m_RootOrder: 201
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1010863288
 GameObject:
@@ -17855,7 +17855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1010863290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17944,9 +17944,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1010863288}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -17985,7 +17985,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 245
+  m_RootOrder: 244
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1013433661
 GameObject:
@@ -18070,7 +18070,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1019697026
 Prefab:
@@ -18109,7 +18109,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -18154,7 +18154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1022590987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18243,9 +18243,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1022590985}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -18284,7 +18284,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 249
+  m_RootOrder: 248
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1029825348
 GameObject:
@@ -18322,7 +18322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1029825350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18411,9 +18411,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1029825348}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -18452,7 +18452,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 89
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1034708273
 Prefab:
@@ -18491,7 +18491,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2d1d8aa2896fe9741a652335ecf4e6ef, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2d1d8aa2896fe9741a652335ecf4e6ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18564,7 +18564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1042342553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18653,9 +18653,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1042342551}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -18694,7 +18694,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1063877087
 GameObject:
@@ -18778,7 +18778,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 6.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1063938051
 GameObject:
@@ -18816,7 +18816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1063938053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18905,9 +18905,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1063938051}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -18946,7 +18946,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 123
+  m_RootOrder: 122
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1064396231
 GameObject:
@@ -18984,7 +18984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1064396233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19073,9 +19073,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1064396231}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -19114,7 +19114,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 191
+  m_RootOrder: 190
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1080859843
 GameObject:
@@ -19152,7 +19152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1080859845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19241,9 +19241,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080859843}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -19282,7 +19282,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 203
+  m_RootOrder: 202
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106132674
 GameObject:
@@ -19366,7 +19366,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 6, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 257
+  m_RootOrder: 256
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1126289547
 Prefab:
@@ -19405,7 +19405,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0249d07ad21ea974ea99cf6a1dd0792a, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0249d07ad21ea974ea99cf6a1dd0792a, type: 3}
       propertyPath: m_LocalScale.x
@@ -19511,7 +19511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1135998115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19600,9 +19600,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1135998113}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -19641,7 +19641,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167040373
 GameObject:
@@ -19679,7 +19679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1167040375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19768,9 +19768,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1167040373}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -19809,7 +19809,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 227
+  m_RootOrder: 226
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1171407551
 GameObject:
@@ -19847,7 +19847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1171407553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19936,9 +19936,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1171407551}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -19977,7 +19977,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180119105
 GameObject:
@@ -20062,7 +20062,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1186655469
 GameObject:
@@ -20100,7 +20100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1186655471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20189,9 +20189,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1186655469}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -20230,7 +20230,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1195714883
 GameObject:
@@ -20268,7 +20268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1195714885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20357,9 +20357,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1195714883}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -20398,7 +20398,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1208711904
 GameObject:
@@ -20436,7 +20436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1208711906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20525,9 +20525,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1208711904}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -20566,7 +20566,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 199
+  m_RootOrder: 198
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1212944763
 GameObject:
@@ -20604,7 +20604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1212944765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20693,9 +20693,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1212944763}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -20734,7 +20734,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 153
+  m_RootOrder: 152
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1213789969
 GameObject:
@@ -20772,7 +20772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1213789971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20861,9 +20861,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1213789969}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -20902,7 +20902,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 220
+  m_RootOrder: 219
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1222453257
 GameObject:
@@ -20916,7 +20916,6 @@ GameObject:
   - component: {fileID: 1222453260}
   - component: {fileID: 1222453259}
   - component: {fileID: 1222453263}
-  - component: {fileID: 1222453258}
   - component: {fileID: 1222453264}
   m_Layer: 0
   m_Name: Main Camera
@@ -20925,18 +20924,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1222453258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1222453257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f74282f928e42764a953faa2b5068747, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1640710810}
 --- !u!81 &1222453259
 AudioListener:
   m_ObjectHideFlags: 0
@@ -20993,13 +20980,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1222453257}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -50}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.26837406, y: -0, z: -0, w: 0.96331483}
+  m_LocalPosition: {x: -0.78, y: 7.73, z: -11.3}
+  m_LocalScale: {x: 6.250002, y: 6.25, z: 6.250002}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1640710816}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 31.135002, y: 0, z: 0}
 --- !u!114 &1222453263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21128,7 +21115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1235080230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21217,9 +21204,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1235080228}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -21258,7 +21245,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 112
+  m_RootOrder: 111
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1237096471 stripped
 Transform:
@@ -21300,7 +21287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1260737891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21389,9 +21376,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1260737889}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -21430,7 +21417,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1264280021
 Prefab:
@@ -21469,7 +21456,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06849cd3ddc13cf4ba8d2f8ef24f409e, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06849cd3ddc13cf4ba8d2f8ef24f409e, type: 3}
       propertyPath: m_LocalScale.x
@@ -21538,7 +21525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1273995585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21627,9 +21614,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1273995583}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -21668,7 +21655,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 158
+  m_RootOrder: 157
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1275246737 stripped
 GameObject:
@@ -21757,7 +21744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1288140741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21846,9 +21833,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1288140739}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -21887,7 +21874,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 83
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1291351082
 GameObject:
@@ -21925,7 +21912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1291351084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22014,9 +22001,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1291351082}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -22055,7 +22042,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 250
+  m_RootOrder: 249
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303553427
 GameObject:
@@ -22093,7 +22080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1303553429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22182,9 +22169,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1303553427}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -22223,7 +22210,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 96
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1326472583
 GameObject:
@@ -22261,7 +22248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1326472585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22350,9 +22337,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1326472583}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -22391,7 +22378,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 126
+  m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1329082019
 GameObject:
@@ -22485,7 +22472,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -22530,7 +22517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1342333288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22619,9 +22606,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1342333286}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -22660,7 +22647,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 173
+  m_RootOrder: 172
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1347340860
 GameObject:
@@ -22698,7 +22685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1347340862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22787,9 +22774,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1347340860}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -22828,7 +22815,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 91
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1354876669
 GameObject:
@@ -22866,7 +22853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1354876671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22955,9 +22942,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1354876669}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -22996,7 +22983,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1361555053
 GameObject:
@@ -23034,7 +23021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1361555055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23123,9 +23110,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1361555053}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -23164,7 +23151,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 109
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1370703784
 GameObject:
@@ -23202,7 +23189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1370703786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23291,9 +23278,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1370703784}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -23332,7 +23319,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 144
+  m_RootOrder: 143
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1375605012
 GameObject:
@@ -23370,7 +23357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1375605014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23459,9 +23446,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1375605012}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -23500,7 +23487,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 193
+  m_RootOrder: 192
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1383407852
 GameObject:
@@ -23538,7 +23525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1383407854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23627,9 +23614,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1383407852}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -23668,7 +23655,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 99
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1386498979
 GameObject:
@@ -23706,7 +23693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1386498981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23795,9 +23782,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1386498979}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -23836,7 +23823,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 204
+  m_RootOrder: 203
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395163236
 GameObject:
@@ -23874,7 +23861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1395163238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23963,9 +23950,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1395163236}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -24004,7 +23991,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395326898
 GameObject:
@@ -24089,7 +24076,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1404485800
 GameObject:
@@ -24127,7 +24114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1404485802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24216,9 +24203,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1404485800}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -24257,7 +24244,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 101
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1405105261
 Prefab:
@@ -24296,7 +24283,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0249d07ad21ea974ea99cf6a1dd0792a, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0249d07ad21ea974ea99cf6a1dd0792a, type: 3}
       propertyPath: m_LocalScale.x
@@ -24361,7 +24348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1405542599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24450,9 +24437,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1405542597}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -24491,7 +24478,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 117
+  m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1421091567
 GameObject:
@@ -24529,7 +24516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1421091569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24618,9 +24605,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1421091567}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -24659,7 +24646,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 168
+  m_RootOrder: 167
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1423225886
 GameObject:
@@ -24697,7 +24684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1423225888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24786,9 +24773,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1423225886}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -24827,7 +24814,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 164
+  m_RootOrder: 163
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1432809164
 GameObject:
@@ -24865,7 +24852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1432809166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24954,9 +24941,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1432809164}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -24995,7 +24982,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 143
+  m_RootOrder: 142
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1438339216
 GameObject:
@@ -25033,7 +25020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1438339218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25122,9 +25109,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1438339216}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -25163,7 +25150,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 125
+  m_RootOrder: 124
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1447290992
 GameObject:
@@ -25247,7 +25234,7 @@ Transform:
   m_LocalScale: {x: 6.8, y: 0.14407812, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1449410266
 GameObject:
@@ -25285,7 +25272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1449410268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25374,9 +25361,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1449410266}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -25415,7 +25402,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 243
+  m_RootOrder: 242
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1455493600
 Prefab:
@@ -25454,7 +25441,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 462286, guid: 87918e0337ff8b34a888f3f912ea01f9, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 462286, guid: 87918e0337ff8b34a888f3f912ea01f9, type: 2}
       propertyPath: m_LocalScale.x
@@ -25516,7 +25503,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 22f0420efb2c57043b3adb4672a6b2a3, type: 2}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 22f0420efb2c57043b3adb4672a6b2a3, type: 2}
       propertyPath: m_LocalScale.x
@@ -25585,7 +25572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1473379347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25674,9 +25661,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1473379345}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -25715,7 +25702,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 242
+  m_RootOrder: 241
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1477525320
 GameObject:
@@ -25753,7 +25740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1477525322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25842,9 +25829,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1477525320}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -25883,7 +25870,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 178
+  m_RootOrder: 177
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1486585500
 GameObject:
@@ -25921,7 +25908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1486585502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26010,9 +25997,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1486585500}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -26051,7 +26038,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 221
+  m_RootOrder: 220
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1492959260
 GameObject:
@@ -26089,7 +26076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1492959262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26178,9 +26165,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1492959260}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -26219,7 +26206,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1493058789
 Prefab:
@@ -26258,7 +26245,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -26303,7 +26290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1495051925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26392,9 +26379,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1495051923}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -26433,7 +26420,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 169
+  m_RootOrder: 168
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1498356450
 GameObject:
@@ -26471,7 +26458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1498356452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26560,9 +26547,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1498356450}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -26601,7 +26588,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 88
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1504450328
 GameObject:
@@ -26639,7 +26626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1504450330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26728,9 +26715,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1504450328}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -26769,7 +26756,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 208
+  m_RootOrder: 207
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1527746366 stripped
 GameObject:
@@ -26872,7 +26859,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1542911199
 GameObject:
@@ -26910,7 +26897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1542911201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26999,9 +26986,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1542911199}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -27040,7 +27027,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 119
+  m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1546795583
 GameObject:
@@ -27078,7 +27065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1546795585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27167,9 +27154,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1546795583}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -27208,7 +27195,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 230
+  m_RootOrder: 229
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1561962831
 GameObject:
@@ -27246,7 +27233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1561962833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27335,9 +27322,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1561962831}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -27376,7 +27363,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 224
+  m_RootOrder: 223
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1569975202
 GameObject:
@@ -27414,7 +27401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1569975204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27503,9 +27490,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1569975202}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -27544,7 +27531,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 146
+  m_RootOrder: 145
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1570190544
 GameObject:
@@ -27582,7 +27569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1570190546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27671,9 +27658,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1570190544}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -27712,7 +27699,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 94
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1572920037
 GameObject:
@@ -27750,7 +27737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1572920039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27839,9 +27826,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1572920037}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -27880,7 +27867,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 197
+  m_RootOrder: 196
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1583153597
 GameObject:
@@ -27918,7 +27905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1583153599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28007,9 +27994,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1583153597}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -28048,7 +28035,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 162
+  m_RootOrder: 161
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1587246067
 GameObject:
@@ -28086,7 +28073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1587246069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28175,9 +28162,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1587246067}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -28216,7 +28203,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 133
+  m_RootOrder: 132
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1596876391
 GameObject:
@@ -28254,7 +28241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1596876393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28343,9 +28330,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1596876391}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -28384,7 +28371,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 127
+  m_RootOrder: 126
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1601904120
 GameObject:
@@ -28422,7 +28409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1601904122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28511,9 +28498,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1601904120}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -28552,7 +28539,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 138
+  m_RootOrder: 137
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631650659
 GameObject:
@@ -28590,7 +28577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1631650661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28679,9 +28666,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1631650659}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -28720,7 +28707,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 222
+  m_RootOrder: 221
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1634092865
 GameObject:
@@ -28758,7 +28745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1634092867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28847,9 +28834,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1634092865}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -28888,7 +28875,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 211
+  m_RootOrder: 210
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1636200607
 GameObject:
@@ -28926,7 +28913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1636200609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29015,9 +29002,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1636200607}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -29056,7 +29043,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 116
+  m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1637682025
 GameObject:
@@ -29094,7 +29081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1637682027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29183,9 +29170,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1637682025}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -29224,7 +29211,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 217
+  m_RootOrder: 216
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1640710810
 GameObject:
@@ -29237,11 +29224,11 @@ GameObject:
   - component: {fileID: 1640710816}
   - component: {fileID: 1640710815}
   - component: {fileID: 1640710814}
-  - component: {fileID: 1640710818}
   - component: {fileID: 1640710813}
   - component: {fileID: 1640710817}
   - component: {fileID: 1640710811}
   - component: {fileID: 1640710812}
+  - component: {fileID: 1640710818}
   m_Layer: 0
   m_Name: Blobby
   m_TagString: Player
@@ -29263,7 +29250,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 1
 --- !u!114 &1640710812
 MonoBehaviour:
@@ -29342,9 +29329,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.17, y: 0.24, z: -47.87}
   m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
-  m_Children: []
+  m_Children:
+  - {fileID: 1222453262}
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1640710817
 MonoBehaviour:
@@ -29357,7 +29345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a97a0e21095b6d745897c2d0d778d766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waterLevel: 0.7
+  waterLevel: 1
   floatTreshold: 2
   waterDensity: 0.125
   downForce: 4
@@ -29369,14 +29357,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640710810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fc9252ae27ca924e982a8bbd74ac819, type: 3}
+  m_Script: {fileID: 11500000, guid: 74d52a97db814cf48b48dcb42f0839cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotaterate: 500
+  moveSpeed: 20
+  turnSpeed: 120
   windyzone: {fileID: 977960209}
+  camMain: {fileID: 0}
+  anchor: {fileID: 0}
   inWindZone: 0
-  jumpPower: 400
-  hopPower: 400
+  jumpTimer: 1
+  jumpPower: 200
+  hopPower: 200
   hopTimer: 1
   hopTimerReset: 1
 --- !u!1 &1651635749
@@ -29415,7 +29407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1651635751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29504,9 +29496,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651635749}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -29545,7 +29537,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 218
+  m_RootOrder: 217
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1655532485
 GameObject:
@@ -29583,7 +29575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1655532487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29672,9 +29664,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1655532485}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -29713,7 +29705,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 93
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1671378368
 GameObject:
@@ -29751,7 +29743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1671378370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29840,9 +29832,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1671378368}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -29881,7 +29873,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 129
+  m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1673377065 stripped
 GameObject:
@@ -29935,7 +29927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1691673008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30024,9 +30016,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1691673006}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -30065,7 +30057,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 223
+  m_RootOrder: 222
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1697538555
 GameObject:
@@ -30151,7 +30143,7 @@ Transform:
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1697538560
 Animator:
@@ -30206,7 +30198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1713292829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30295,9 +30287,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1713292827}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -30336,7 +30328,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 130
+  m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1713538477
 GameObject:
@@ -30374,7 +30366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1713538479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30463,9 +30455,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1713538477}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -30504,7 +30496,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1716851885
 GameObject:
@@ -30542,7 +30534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1716851887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30631,9 +30623,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1716851885}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -30672,7 +30664,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 105
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1727486920
 GameObject:
@@ -30710,7 +30702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1727486922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30799,9 +30791,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1727486920}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -30840,7 +30832,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731744944
 GameObject:
@@ -30878,7 +30870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1731744946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30967,9 +30959,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1731744944}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -31008,7 +31000,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 100
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1732155510
 Prefab:
@@ -31047,7 +31039,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990711638517210, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1645814682841382, guid: cb3d909cdf4018548bb7b590bc82a46e, type: 2}
       propertyPath: m_Name
@@ -31092,7 +31084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1745543672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31181,9 +31173,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1745543670}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -31222,7 +31214,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 97
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1757043158 stripped
 GameObject:
@@ -31278,7 +31270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1767359642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31367,9 +31359,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1767359640}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -31408,7 +31400,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 234
+  m_RootOrder: 233
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1788292685
 GameObject:
@@ -31446,7 +31438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1788292687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31535,9 +31527,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1788292685}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -31576,7 +31568,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 75
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1788670933
 GameObject:
@@ -31614,7 +31606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1788670935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31703,9 +31695,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1788670933}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -31744,7 +31736,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 134
+  m_RootOrder: 133
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1795172803
 GameObject:
@@ -31782,7 +31774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1795172805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31871,9 +31863,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1795172803}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -31912,7 +31904,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 174
+  m_RootOrder: 173
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1804178717
 GameObject:
@@ -31950,7 +31942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1804178719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32039,9 +32031,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1804178717}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -32080,7 +32072,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 205
+  m_RootOrder: 204
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1804702439
 GameObject:
@@ -32118,7 +32110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1804702441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32207,9 +32199,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1804702439}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -32248,7 +32240,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 131
+  m_RootOrder: 130
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1805323380
 GameObject:
@@ -32286,7 +32278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1805323382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32375,9 +32367,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1805323380}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -32416,7 +32408,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 210
+  m_RootOrder: 209
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1807784220
 GameObject:
@@ -32454,7 +32446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1807784222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32543,9 +32535,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1807784220}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -32584,7 +32576,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 244
+  m_RootOrder: 243
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1814395171
 GameObject:
@@ -32622,7 +32614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1814395173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32711,9 +32703,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1814395171}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -32752,7 +32744,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 200
+  m_RootOrder: 199
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1814428962 stripped
 GameObject:
@@ -32808,7 +32800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1816000549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32897,9 +32889,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1816000547}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -32938,7 +32930,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 256
+  m_RootOrder: 255
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819937736 stripped
 GameObject:
@@ -33057,7 +33049,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1829746513
 GameObject:
@@ -33095,7 +33087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1829746515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33184,9 +33176,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1829746513}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -33225,7 +33217,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 135
+  m_RootOrder: 134
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1830831596
 GameObject:
@@ -33263,7 +33255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1830831598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33352,9 +33344,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1830831596}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -33393,7 +33385,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 161
+  m_RootOrder: 160
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1834351001
 GameObject:
@@ -33431,7 +33423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1834351003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33520,9 +33512,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1834351001}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -33561,7 +33553,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1846630168
 GameObject:
@@ -33599,7 +33591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1846630170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33688,9 +33680,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1846630168}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -33729,7 +33721,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1852999732
 GameObject:
@@ -33767,7 +33759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1852999734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33856,9 +33848,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852999732}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -33897,7 +33889,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 216
+  m_RootOrder: 215
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1857316774
 GameObject:
@@ -33935,7 +33927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1857316776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34024,9 +34016,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857316774}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -34065,7 +34057,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 212
+  m_RootOrder: 211
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1861995824
 GameObject:
@@ -34103,7 +34095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1861995826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34192,9 +34184,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1861995824}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -34233,7 +34225,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 151
+  m_RootOrder: 150
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875681055
 GameObject:
@@ -34271,7 +34263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1875681057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34360,9 +34352,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1875681055}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -34401,7 +34393,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 241
+  m_RootOrder: 240
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1880008980
 GameObject:
@@ -34439,7 +34431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1880008982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34528,9 +34520,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1880008980}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -34569,7 +34561,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1881139281
 GameObject:
@@ -34607,7 +34599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1881139283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34696,9 +34688,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1881139281}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -34737,7 +34729,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 215
+  m_RootOrder: 214
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1893820398
 GameObject:
@@ -34775,7 +34767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1893820400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34864,9 +34856,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1893820398}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -34905,7 +34897,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 232
+  m_RootOrder: 231
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1894941714
 GameObject:
@@ -34943,7 +34935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1894941716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35032,9 +35024,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1894941714}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -35073,7 +35065,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 171
+  m_RootOrder: 170
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1897824913
 GameObject:
@@ -35111,7 +35103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1897824915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35200,9 +35192,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1897824913}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -35241,7 +35233,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1918629388
 GameObject:
@@ -35279,7 +35271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1918629390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35368,9 +35360,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1918629388}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -35409,7 +35401,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 122
+  m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1937918461
 GameObject:
@@ -35447,7 +35439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1937918463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35536,9 +35528,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937918461}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -35577,7 +35569,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 163
+  m_RootOrder: 162
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1938453983
 GameObject:
@@ -35615,7 +35607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1938453985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35704,9 +35696,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1938453983}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -35745,7 +35737,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 145
+  m_RootOrder: 144
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1939399770
 GameObject:
@@ -35783,7 +35775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1939399772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35872,9 +35864,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1939399770}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -35913,7 +35905,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 104
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1962099013
 GameObject:
@@ -35951,7 +35943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1962099015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36040,9 +36032,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1962099013}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -36081,7 +36073,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 76
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1964308850 stripped
 GameObject:
@@ -36137,7 +36129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1982890557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36226,9 +36218,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1982890555}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -36267,7 +36259,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 118
+  m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1983671449
 GameObject:
@@ -36305,7 +36297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &1983671451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36394,9 +36386,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1983671449}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -36435,7 +36427,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 108
+  m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2001637298
 GameObject:
@@ -36473,7 +36465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2001637300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36562,9 +36554,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2001637298}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -36603,7 +36595,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 239
+  m_RootOrder: 238
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2004886267
 GameObject:
@@ -36641,7 +36633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2004886269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36730,9 +36722,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2004886267}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -36771,7 +36763,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2016758263
 GameObject:
@@ -36809,7 +36801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2016758265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36898,9 +36890,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2016758263}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -36939,7 +36931,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 78
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2017491354
 GameObject:
@@ -36977,7 +36969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2017491356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37066,9 +37058,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2017491354}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -37107,7 +37099,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 235
+  m_RootOrder: 234
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2041166115
 Prefab:
@@ -37146,7 +37138,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 2}
       propertyPath: m_LocalScale.x
@@ -37203,7 +37195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2041430304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37292,9 +37284,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2041430302}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -37333,7 +37325,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2048406585
 GameObject:
@@ -37371,7 +37363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2048406587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37460,9 +37452,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2048406585}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -37501,7 +37493,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 177
+  m_RootOrder: 176
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2060589461
 GameObject:
@@ -37539,7 +37531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2060589463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37628,9 +37620,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2060589461}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -37669,7 +37661,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2061764518
 GameObject:
@@ -37707,7 +37699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2061764520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37796,9 +37788,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2061764518}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -37837,7 +37829,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 73
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2064684601
 GameObject:
@@ -37875,7 +37867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2064684603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37964,9 +37956,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2064684601}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -38005,7 +37997,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2067011567
 GameObject:
@@ -38043,7 +38035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2067011569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38132,9 +38124,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2067011567}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -38173,7 +38165,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 132
+  m_RootOrder: 131
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2070960729
 GameObject:
@@ -38211,7 +38203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2070960731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38300,9 +38292,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2070960729}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -38341,7 +38333,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 236
+  m_RootOrder: 235
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2075772971
 GameObject:
@@ -38379,7 +38371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2075772973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38468,9 +38460,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2075772971}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -38509,7 +38501,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 103
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2081027594
 GameObject:
@@ -38574,7 +38566,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &2085004408
 GameObject:
@@ -38612,7 +38604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2085004410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38701,9 +38693,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2085004408}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -38742,7 +38734,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 228
+  m_RootOrder: 227
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2090734451
 GameObject:
@@ -38780,7 +38772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2090734453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38869,9 +38861,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2090734451}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -38910,7 +38902,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 183
+  m_RootOrder: 182
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2091644372
 GameObject:
@@ -38948,7 +38940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2091644374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39037,9 +39029,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2091644372}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -39078,7 +39070,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 140
+  m_RootOrder: 139
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2103284341
 GameObject:
@@ -39116,7 +39108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2103284343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39205,9 +39197,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2103284341}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -39246,7 +39238,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 184
+  m_RootOrder: 183
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2104166151
 GameObject:
@@ -39284,7 +39276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2104166153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39373,9 +39365,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2104166151}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -39414,7 +39406,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 121
+  m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2106132442
 GameObject:
@@ -39452,7 +39444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2106132444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39541,9 +39533,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2106132442}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -39582,7 +39574,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 159
+  m_RootOrder: 158
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129455740
 GameObject:
@@ -39620,7 +39612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2129455742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39709,9 +39701,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2129455740}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -39750,7 +39742,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2145995450
 GameObject:
@@ -39788,7 +39780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2145995452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39877,9 +39869,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2145995450}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -39918,7 +39910,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 114
+  m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2146841821
 GameObject:
@@ -39956,7 +39948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 1640710816}
   player: {fileID: 1640710810}
-  thrust: 0.3
+  thrust: 0.4
 --- !u!114 &2146841823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40045,9 +40037,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2146841821}
   serializedVersion: 2
-  m_Mass: 0.02
+  m_Mass: 0.05
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -40086,5 +40078,5 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.05000001, z: 0.05000001}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 87
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
