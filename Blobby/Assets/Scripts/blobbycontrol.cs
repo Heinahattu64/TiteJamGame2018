@@ -33,7 +33,7 @@ public class blobbycontrol : MonoBehaviour {
     void MoveBlobby()
     {
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * turnSpeed;
-        var z = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+        var z = Input.GetAxis("Vertical") * Time.deltaTime;
         /*
         //anchorScript.MovementTry();
 
@@ -42,6 +42,7 @@ public class blobbycontrol : MonoBehaviour {
         Vector3 dir = new Vector3(x, 0, z);
         Quaternion rotation = Quaternion.Euler(x, 0, z);
         camMain.position = anchor.position + rotation * dir;
+        camMain.LookAt(anchor.position);
         camMain.LookAt(anchor.position);
 
         
@@ -55,8 +56,18 @@ public class blobbycontrol : MonoBehaviour {
         rb.AddForce(dir);
         */
 
+        //Vector3 movement = new Vector3(z, 0, 0);
         transform.Rotate(0, x, 0);
-        transform.Translate(0, 0, z);
+
+        if (z > 0)
+        {
+            rb.AddForce(transform.forward * moveSpeed);
+        }
+        else if (z < 0)
+        {
+            rb.AddForce(transform.forward * -moveSpeed);
+        }
+        //rb.AddForce(transform.forward);
 
         jumpTimer -= Time.deltaTime;
         if (jumpTimer <= 0.0f && Input.GetButtonDown("Jump"))

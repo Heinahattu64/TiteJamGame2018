@@ -10,11 +10,9 @@ public class CamAnchor : MonoBehaviour {
     public float x;
     public float z;
 
-    private Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
-        rb = GetComponent <Rigidbody>();
 	}
 	
 	// Update is called once per frame
@@ -24,12 +22,6 @@ public class CamAnchor : MonoBehaviour {
         //anchor.rotation = Quaternion.LookRotation(test);
 
         transform.localRotation = Quaternion.Slerp(camRotation, transform.rotation, Time.deltaTime);
-    }
-
-    public void MovementTry()
-    {
-        x = Input.GetAxis("Horizontal") * Time.deltaTime * rotaterate;
-        z = Input.GetAxis("Vertical") * Time.deltaTime * rotaterate;
     }
 
     public void LateUpdate()
