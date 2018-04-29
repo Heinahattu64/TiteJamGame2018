@@ -16,6 +16,10 @@ public class blobbycontrol : MonoBehaviour
 
     public float jumpTimer;
     public float jumpPower;
+    public float hopPower;
+    public float hopTimer;
+    public float hopTimerReset;
+
 
     //public CamAnchor anchorScript;
 
@@ -30,6 +34,7 @@ public class blobbycontrol : MonoBehaviour
     {
 
         MoveBlobby();
+        HopBlobby();
 
     }
 
@@ -78,6 +83,18 @@ public class blobbycontrol : MonoBehaviour
             Vector3 jump = new Vector3(0.0f, jumpPower, 0f);
             rb.AddForce(jump);
             jumpTimer = 1.5f;
+        }
+    }
+    void HopBlobby()
+    {
+
+        hopTimer -= Time.deltaTime;
+
+        if (hopTimer <= 0f)
+        {
+            Vector3 hop = new Vector3(0.0f, hopPower, 0f);
+            rb.AddForce(hop);
+            hopTimer = hopTimerReset;
         }
     }
 
