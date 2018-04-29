@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Labra.unity
+    guid: 08418f2af87a7a849904fadc56adf25b
+  - enabled: 1
+    path: "Assets/Keitti\xF6.unity"
+    guid: 709b6ecb9bfc4584aa5fa46cbb048ef5
+  - enabled: 1
+    path: Assets/Sewer.unity
+    guid: 84d01735aeda0eb42b3a43fdbaf08a08
